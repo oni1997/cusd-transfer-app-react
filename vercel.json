@@ -3,9 +3,7 @@
       "env": {
         "NODE_ENV": "production"
       },
-      "npm": {
-        "installCommand": "npm run install"
-      }
+      "buildCommand": "npm install --legacy-peer-deps && npm run build"
     }
   }
   
